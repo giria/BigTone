@@ -50,23 +50,6 @@ OSStatus renderAudio(
     return noErr;
     
     
-//    double j = vc->_lastTheta;
-//    double cycleLength = SAMPLE_RATE/ vc.frequencySlider.value;
-//    int frame = 0;
-//    for (frame = 0; frame<inNumberFrames; ++frame) {
-//        // SIN
-//        Float32 *data = (float *)ioData ->mBuffers[0].mData;
-//        (data)[frame] = sin(2*M_PI*(j/cycleLength));
-//        data = (float *)ioData ->mBuffers[1].mData;
-//        (data)[frame] = sin(2*M_PI*(j/cycleLength));
-//        //        data = (Float32 *)ioData->mBuffers[1].mData;
-//        //        data[i] = gAmplitude * sin(theta);
-//        j += 1.0;
-//        if (j > cycleLength)
-//            j -= cycleLength;
-//    }
-//    vc -> _lastTheta = j;
-//    return noErr;
 }
 
 
